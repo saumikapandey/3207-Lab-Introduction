@@ -1,8 +1,5 @@
 #include <stdlib.h>
-char ranchar() {
-return 'A'+(rand()%26);
+
+char randchar(void) {
+    return 'A' + (rand() % 26);
 }
-
-
-
-
